@@ -1,0 +1,49 @@
+# Basic
+title: 机器学习
+subtitle: 机器学习经验总结
+welcome_message: <a href="http://www.elesos.com" target="_blank">欢迎访问</a>
+description: 机器学习相关
+creator: <a href="http://www.elesos.com">艺搜天下</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 访问博客
+
+# Navigation buttons in the front page.
+nav:
+    - {title: 关于, description: 了解更多, url: 'http://www.elesos.com/'}
+    #- {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: ifengdev-github    
+    
+# Social
+social:
+    weibo: elesos
+    github: elesos
+    twitter: hnrayer
+    gplus: 109489739602393495945
+    mail: admin@elesos.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
